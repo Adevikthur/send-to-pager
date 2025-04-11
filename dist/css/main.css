@@ -1,0 +1,60 @@
+h1 {
+  font-family: "Press Start 2P", cursive;
+  font-weight: normal;
+  margin: 0;
+  font-size: 2rem;
+  line-height: 2.4rem;
+  margin: 0;
+}
+
+h2 {
+  font-family: "Press Start 2P", cursive;
+  font-weight: normal;
+  margin: 0;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  margin: 0;
+}
+
+h3 {
+  font-family: "Press Start 2P", cursive;
+  font-weight: normal;
+  margin: 0;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  margin: 0;
+}
+
+h4 {
+  font-family: "Press Start 2P", cursive;
+  font-weight: normal;
+  margin: 0;
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+  margin: 0;
+}
+
+p {
+  font-family: "Press Start 2P", cursive;
+  font-size: 1rem;
+  line-height: 1.6;
+  margin: 0;
+}
+
+body {
+  font-family: "Press Start 2P", cursive;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #FFF;
+  color: #0B0B0B;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  display: flex;
+  overflow-x: hidden;
+}
+
+.keypad-btn {
+  font-family: "Press Start 2P", cursive;
+}/*# sourceMappingURL=main.css.map */
