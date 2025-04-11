@@ -49,8 +49,7 @@ body {
   color: #0B0B0B;
   justify-content: center;
   align-items: center;
-  justify-items: center;
-  align-content: center;
+  margin-top: 10vh;
   display: flex;
   overflow-y: auto;
   width: 100%;
