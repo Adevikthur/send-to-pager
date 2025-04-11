@@ -144,7 +144,7 @@ body {
         gap: 1rem;
         background-color: $phone-grey;
         color: $black;
-        padding: .5rem;
+        padding: 1rem;
         width: 100%;
         box-sizing: border-box;
         // Fix the duplicate gap property with space
@@ -221,5 +221,96 @@ body {
                 }
             }
         }
+    }
+}
+
+//Mobile responsiveness
+@media screen and (max-width: 1200px) {
+    .holder {
+        width: 50vw;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .holder {
+        width: 60vw;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .holder {
+        width: 80vw;
+        padding: 10px;
+    }
+    
+    .phone {
+        &__keypad-grid {
+            gap: 8px;
+            
+            .keypad-btn {
+                padding: 0.75rem;
+                font-size: 10px;
+            }
+        }
+        
+        .btn {
+            padding: 12px 24px;
+            font-size: 10px;
+        }
+    }
+}
+
+@media screen and (max-width: 576px) {
+    body {
+        padding: 1rem;
+    }
+    
+    .holder {
+        width: 95vw;
+        padding: 8px;
+        gap: 1rem;
+    }
+    
+    .pager {
+        padding: 0.75rem;
+        
+        &__display {
+            height: 40px;
+            font-size: 0.75rem;
+        }
+    }
+    
+    .phone {
+        padding: 0.75rem;
+        
+        &__display {
+            height: 40px;
+            font-size: 0.75rem;
+        }
+        
+        &__keypad-grid {
+            gap: 6px;
+            
+            .keypad-btn {
+                padding: 0.5rem;
+                font-size: 8px;
+            }
+        }
+        
+        .btn {
+            padding: 10px 20px;
+            font-size: 8px;
+        }
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .holder {
+        width: 100%;
+        padding: 6px;
+    }
+    
+    .phone__keypad-grid .keypad-btn {
+        padding: 0.4rem;
     }
 }
